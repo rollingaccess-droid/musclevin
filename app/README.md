@@ -3,9 +3,11 @@
 Uses only the Python standard library. Covers 1964-1980 Chevrolet, Pontiac, Ford/Mercury, Dodge and Plymouth.
 Each decoded field records the source ID (S1..S15) its rule came from.
 
+`deploy/assets/decoder.js` is a JavaScript port of this module for the free in-browser decoder. This file stays the source of truth. `app/tests/test_js_parity.py` fails if the JavaScript output drifts.
+
 ```bash
 python3 decoder.py 136379A307416 --year 1969 --tag "ST 69-13637 ATL BDY"   # JSON output
-../.venv/bin/python -m pytest -q tests                                     # 26 tests
+../.venv/bin/python -m pytest -q tests                                     # Python tests plus JS parity
 ../.venv/bin/python make_report.py ../sample-report.pdf                    # needs reportlab (in ../.venv)
 ```
 

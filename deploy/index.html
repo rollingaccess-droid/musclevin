@@ -3,25 +3,164 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MuscleVIN · What is my car, and what's it worth?</title>
-<meta name="description" content="VIN and trim tag decode, matching-numbers check, and a value range for classic and muscle cars, in plain English.">
+<title>MuscleVIN · Free classic VIN decoder</title>
+<meta name="description" content="Free instant VIN decoder for 1964-1980 Chevrolet, Pontiac, Ford, Mercury, Dodge, and Plymouth. See what the VIN says, what it can't prove, and join the waitlist for a value report.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#14161a">
+<meta property="og:title" content="MuscleVIN · Free classic VIN decoder">
+<meta property="og:description" content="Free instant VIN decoder for 1964-1980 Chevrolet, Pontiac, Ford, Mercury, Dodge, and Plymouth. It runs in your browser.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MuscleVIN · Free classic VIN decoder">
+<meta name="twitter:description" content="Free instant VIN decoder for 1964-1980 Chevrolet, Pontiac, Ford, Mercury, Dodge, and Plymouth. It runs in your browser.">
 <link rel="stylesheet" href="assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "MuscleVIN free VIN decoder",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Web",
+      "browserRequirements": "Requires JavaScript. The decode runs in the browser.",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Free in-browser decoder for 1964-1980 Chevrolet, Pontiac, Ford, Mercury, Dodge, and Plymouth VINs, with an optional model year and trim tag. It states a confidence level and what a VIN cannot prove.",
+      "featureList": [
+        "Classic VIN decode",
+        "Optional trim tag cross-check",
+        "Plain-English confidence level"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this a certified appraisal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It's an informational report. If you need a value for insurance, probate, taxes, a loan or a court, hire a certified appraiser. Our report can help you get ready for that appointment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the VIN decoder free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The decoder on this page runs in your browser and does not ask you to sign up. It reads 1964-1980 Chevrolet, Pontiac, Ford, Mercury, Dodge, and Plymouth VINs. A full value report, when it opens, is a separate paid product. Join the waitlist if you want that."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a VIN prove my car is an SS or has a Hemi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A VIN can't prove an option package. On many of these cars an SS, Hemi, Judge, or similar package was an option and is not its own VIN series. The decoder says when a VIN is only consistent with that kind of car. Proof takes the trim tag, a build sheet, or factory paperwork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the free decoder send my VIN anywhere?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The decode runs in your browser. Joining the waitlist sends only the email address and the optional car description you submit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which cars do you cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The free decoder covers 1964-1980 Chevrolet, Pontiac, Ford, Mercury, Dodge, and Plymouth. Other makes, and 17-character VINs from 1981 on, get a plain message instead of a guess. The full report is aimed at American classic and muscle cars. If we can't give a useful answer, we'll say so."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you prove my car is \"numbers matching\"?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Photos and decoded codes can show whether the numbers are consistent. Proof often needs factory documents such as a Marti Report, PHS docs or a build sheet. We'll tell you which ones apply to your car."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where does the value range come from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "From comparable sales of similar cars, adjusted for the condition and originality you describe. We show the range and how confident we are. We don't give one number."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I don't know anything about cars. Can I still use this?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Most people who need this inherited the car or are helping a relative. We'll tell you exactly which photos to take."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do I need to send?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The VIN, a photo of the trim/cowl/fender tag if the car has one, and general photos. Paperwork such as titles, window stickers or build sheets helps but isn't required."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header class="nav"><div class="wrap">
   <a class="logo" href="#">MUSCLE<span>VIN</span></a>
-  <nav><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a class="btn sm" href="#waitlist">Join waitlist</a></nav>
+  <nav><a href="#decode">Decode</a><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a class="btn sm" href="#waitlist">Join waitlist</a></nav>
 </div></header>
 
-<section class="hero"><div class="wrap grid2">
-  <div>
-    <p class="eyebrow">For classic &amp; muscle car owners</p>
-    <h1>Inherited a classic car?<br><em>Find out what it is and what it's worth.</em></h1>
-    <p class="lead">Send us the VIN, the trim tag and some photos. You get back a plain-English report: what the car was built as, whether the numbers match, and a value range based on sold cars like it, with the confidence stated.</p>
-    <div class="cta"><a class="btn" href="#waitlist">Join the waitlist</a><a class="btn ghost" href="#sample">See a sample report</a></div>
-    <p class="fine">Covers American classics and muscle cars from every make. You don't need to know anything about cars to use it.</p>
+<section class="hero"><div class="wrap">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">For classic &amp; muscle car owners</p>
+      <h1>Inherited a classic car?<br><em>Find out what it is and what it's worth.</em></h1>
+      <p class="lead">Send us the VIN, the trim tag and some photos. You get back a plain-English report: what the car was built as, whether the numbers match, and a value range based on sold cars like it, with the confidence stated. You can decode a 1964-1980 VIN for free on this page before reports open.</p>
+      <div class="cta"><a class="btn" href="#waitlist">Join the waitlist</a><a class="btn ghost" href="#sample">See a sample report</a></div>
+      <p class="fine">The free decoder covers 1964-1980 Chevrolet, Pontiac, Ford, Mercury, Dodge, and Plymouth. You don't need to know anything about cars to use it.</p>
+    </div>
+    <div class="decode-box" id="decode">
+      <div class="stripes"></div>
+      <div class="decode-inner">
+        <p class="eyebrow">Free · instant · in your browser</p>
+        <h2>Decode your VIN free</h2>
+        <p class="decode-lead">Enter a VIN. Add the model year or a trim tag if you have them. The result includes conflicts and a confidence level, in plain English.</p>
+        <form id="decode-form" class="decode-form">
+          <label for="vin">VIN
+            <input id="vin" name="vin" required autocomplete="off" spellcheck="false" maxlength="32" placeholder="136379A307416">
+          </label>
+          <div class="decode-row">
+            <label for="year">Year <span class="opt">(optional)</span>
+              <input id="year" name="year" inputmode="numeric" maxlength="4" placeholder="1969" autocomplete="off">
+            </label>
+            <label for="tag">Trim tag <span class="opt">(optional)</span>
+              <input id="tag" name="tag" maxlength="80" placeholder="ST 69-13637 or E74" autocomplete="off">
+            </label>
+          </div>
+          <p id="decode-error" class="form-error" role="alert"></p>
+          <button class="btn" type="submit">Decode VIN</button>
+          <button class="text-btn" id="try-sample" type="button">Try the sample 1969 Chevelle, 136379A307416</button>
+        </form>
+        <p class="fine">Decoded on this device. The VIN is not uploaded. A VIN can't prove an SS, Hemi, or other option package.</p>
+      </div>
+    </div>
   </div>
-  <div class="stripe-card">
+  <div class="stripe-card hero-checks">
     <div class="stripes"></div>
     <ul class="checks">
       <li><b>ID check</b> VIN &amp; trim/cowl/fender tag decode</li>
@@ -31,6 +170,11 @@
     </ul>
   </div>
 </div></section>
+
+<section id="decode-result" class="section decode-result-section" hidden aria-live="polite">
+  <div class="wrap" id="decode-result-inner"></div>
+</section>
+<noscript><div class="wrap"><p>The free VIN decoder needs JavaScript. It runs on your device and does not send the VIN.</p></div></noscript>
 
 <section id="how" class="section"><div class="wrap">
   <h2>How it works</h2>
@@ -64,7 +208,10 @@
 <section id="faq" class="section alt"><div class="wrap narrow">
   <h2>FAQ</h2>
   <details><summary>Is this a certified appraisal?</summary><p>No. It's an informational report. If you need a value for insurance, probate, taxes, a loan or a court, hire a certified appraiser. Our report can help you get ready for that appointment.</p></details>
-  <details><summary>Which cars do you cover?</summary><p>American classic and muscle cars, mainly pre-1981 cars with short manufacturer-specific VINs. We'll also look at later cars. If we can't give a useful answer, we'll tell you.</p></details>
+  <details><summary>Is the VIN decoder free?</summary><p>Yes. The decoder on this page runs in your browser and does not ask you to sign up. It reads 1964-1980 Chevrolet, Pontiac, Ford, Mercury, Dodge, and Plymouth VINs. A full value report, when it opens, is a separate paid product. Join the waitlist if you want that.</p></details>
+  <details><summary>Can a VIN prove my car is an SS or has a Hemi?</summary><p>No. A VIN can't prove an option package. On many of these cars an SS, Hemi, Judge, or similar package was an option and is not its own VIN series. The decoder says when a VIN is only consistent with that kind of car. Proof takes the trim tag, a build sheet, or factory paperwork.</p></details>
+  <details><summary>Does the free decoder send my VIN anywhere?</summary><p>No. The decode runs in your browser. Joining the waitlist sends only the email address and the optional car description you submit.</p></details>
+  <details><summary>Which cars do you cover?</summary><p>The free decoder covers 1964-1980 Chevrolet, Pontiac, Ford, Mercury, Dodge, and Plymouth. Other makes, and 17-character VINs from 1981 on, get a plain message instead of a guess. The full report is aimed at American classic and muscle cars. If we can't give a useful answer, we'll say so.</p></details>
   <details><summary>Can you prove my car is "numbers matching"?</summary><p>Photos and decoded codes can show whether the numbers are <em>consistent</em>. Proof often needs factory documents such as a Marti Report, PHS docs or a build sheet. We'll tell you which ones apply to your car.</p></details>
   <details><summary>Where does the value range come from?</summary><p>From comparable sales of similar cars, adjusted for the condition and originality you describe. We show the range and how confident we are. We don't give one number.</p></details>
   <details><summary>I don't know anything about cars. Can I still use this?</summary><p>Yes. Most people who need this inherited the car or are helping a relative. We'll tell you exactly which photos to take.</p></details>
@@ -99,4 +246,5 @@ document.querySelector('.waitlist').addEventListener('submit',async function(e){
   btn.disabled=false;
 });
 </script>
+<script type="module" src="assets/decode-ui.js"></script>
 </body></html>
