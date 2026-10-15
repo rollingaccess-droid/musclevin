@@ -8,7 +8,7 @@ Prototype for decoding classic and muscle-car VINs and trim tags, plus the landi
 |---|---|
 | `app/` | Python VIN and trim-tag decoder. `decoder.py` is the decoder (stdlib only). `tests/test_decoder.py` is the pytest suite. `make_report.py` renders a sample PDF. `app/README.md` has coverage, sources, and known limits. |
 | `site/` | Original static landing page. The waitlist form is a placeholder and does not submit anywhere. |
-| `deploy/` | Cloudflare version of the same page. The form posts to `/api/waitlist`. |
+| `deploy/` | Cloudflare version of the same page. The form posts to `/api/waitlist`. The free VIN decoder is client-side: `assets/decoder.js` (port of `app/decoder.py`), `assets/decoder-data.js` (tables generated from Python), and `assets/decode-ui.js`. |
 | `plan.md` | Business plan. |
 | `sample-report.pdf` | Sample report. The same file is also under `site/assets/` and `deploy/assets/`. |
 
@@ -31,7 +31,15 @@ python -m pytest -q tests
 python make_report.py ../sample-report.pdf
 ```
 
-GitHub Actions (`.github/workflows/decoder-tests.yml`) runs `pytest` on every push and pull request. That workflow does not deploy.
+GitHub Actions (`.github/workflows/decoder-tests.yml`) runs `pytest` on every push and pull request. That includes `app/tests/test_js_parity.py`, which checks the JavaScript decoder against `app/decoder.py` for every VIN in the Python tests plus invalid cases. Node 22 is required for that test. The workflow does not deploy.
+
+After a table change in `app/decoder.py`, regenerate the browser tables and the single-file worker, then re-run the tests:
+
+```bash
+python3 deploy/build_decoder_data.py
+python3 deploy/build_inline_worker.py
+cd app && python -m pytest -q tests
+```
 
 ## Deploys
 
