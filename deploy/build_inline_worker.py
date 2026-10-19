@@ -20,6 +20,9 @@ FILES = [
     ("/assets/decode-ui.js", "text/javascript; charset=utf-8", ROOT / "assets" / "decode-ui.js"),
     ("/assets/sample-report-1.png", "image/png", ROOT / "assets" / "sample-report-1.png"),
     ("/assets/sample-report.pdf", "application/pdf", ROOT / "assets" / "sample-report.pdf"),
+    ("/assets/favicon.svg", "image/svg+xml", ROOT / "assets" / "favicon.svg"),
+    ("/favicon.ico", "image/x-icon", ROOT / "favicon.ico"),
+    ("/apple-touch-icon.png", "image/png", ROOT / "apple-touch-icon.png"),
 ]
 
 

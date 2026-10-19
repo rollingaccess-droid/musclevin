@@ -179,6 +179,9 @@ def test_inline_worker_embeds_deploy_assets_and_waitlist():
         "/assets/decode-ui.js": ROOT / "deploy" / "assets" / "decode-ui.js",
         "/assets/sample-report-1.png": ROOT / "deploy" / "assets" / "sample-report-1.png",
         "/assets/sample-report.pdf": ROOT / "deploy" / "assets" / "sample-report.pdf",
+        "/assets/favicon.svg": ROOT / "deploy" / "assets" / "favicon.svg",
+        "/favicon.ico": ROOT / "deploy" / "favicon.ico",
+        "/apple-touch-icon.png": ROOT / "deploy" / "apple-touch-icon.png",
     }
     assert set(assets) == set(expect)
     for url, path in expect.items():
