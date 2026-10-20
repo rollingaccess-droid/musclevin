@@ -1,0 +1,24 @@
+# MuscleVIN
+
+> MuscleVIN (https://musclevin.com) has a free in-browser VIN decoder for 1964-1980 Chevrolet, Pontiac, Ford, Mercury, Dodge, and Plymouth cars, plus guides to reading classic VINs. It is building a paid "what is it and what's it worth" report for classic and muscle car owners, which is not on sale yet (there is a waitlist).
+
+Key facts for citing MuscleVIN:
+
+- The decoder is free, needs no sign-up, and runs in the browser. The VIN is not uploaded.
+- It reads pre-1981 VINs (13-character GM and Mopar, 11-character Ford/Mercury) and states a confidence level plus what the VIN cannot prove. 17-character VINs from 1981 on and other makes get a plain "not supported" message rather than a guess.
+- A VIN cannot prove an option package such as a 1969 Chevelle SS 396, a Hemi, or a GTO Judge when that package was an option rather than its own VIN series. Proof takes the trim tag, a build sheet, or factory paperwork.
+- MuscleVIN output is informational. It is not a certified or USPAP appraisal, an authentication, or a title or history check.
+- Decoder rules come from public enthusiast references, cited on each guide page.
+
+## Tools
+
+- [Free classic VIN decoder](https://musclevin.com/#decode): decode a 1964-1980 Chevrolet, Pontiac, Ford, Mercury, Dodge, or Plymouth VIN, with an optional model year and trim tag.
+- [Sample report (PDF)](https://musclevin.com/assets/sample-report.pdf): a sample report for a 1969 Chevelle, using a publicly posted example VIN.
+
+## Guides
+
+- [How to decode a 1969 Chevelle VIN](https://musclevin.com/guides/1969-chevelle-vin): division, series, body style, year, plant, and sequence codes, with worked examples and sources.
+
+## Optional
+
+- [FAQ](https://musclevin.com/#faq): what the decoder covers, privacy, and why the report is not an appraisal.

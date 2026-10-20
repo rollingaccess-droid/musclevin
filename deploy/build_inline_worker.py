@@ -23,6 +23,10 @@ FILES = [
     ("/assets/favicon.svg", "image/svg+xml", ROOT / "assets" / "favicon.svg"),
     ("/favicon.ico", "image/x-icon", ROOT / "favicon.ico"),
     ("/apple-touch-icon.png", "image/png", ROOT / "apple-touch-icon.png"),
+    ("/robots.txt", "text/plain; charset=utf-8", ROOT / "robots.txt"),
+    ("/sitemap.xml", "application/xml; charset=utf-8", ROOT / "sitemap.xml"),
+    ("/llms.txt", "text/plain; charset=utf-8", ROOT / "llms.txt"),
+    ("/guides/1969-chevelle-vin.html", "text/html; charset=utf-8", ROOT / "guides" / "1969-chevelle-vin.html"),
 ]
 
 
