@@ -182,6 +182,10 @@ def test_inline_worker_embeds_deploy_assets_and_waitlist():
         "/assets/favicon.svg": ROOT / "deploy" / "assets" / "favicon.svg",
         "/favicon.ico": ROOT / "deploy" / "favicon.ico",
         "/apple-touch-icon.png": ROOT / "deploy" / "apple-touch-icon.png",
+        "/robots.txt": ROOT / "deploy" / "robots.txt",
+        "/sitemap.xml": ROOT / "deploy" / "sitemap.xml",
+        "/llms.txt": ROOT / "deploy" / "llms.txt",
+        "/guides/1969-chevelle-vin.html": ROOT / "deploy" / "guides" / "1969-chevelle-vin.html",
     }
     assert set(assets) == set(expect)
     for url, path in expect.items():
