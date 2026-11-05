@@ -1,0 +1,9 @@
+2f61f01022e7c84ffe0493530c89c20b65e0bfcb  deploy/guides.html
+07352c5bce7ff47c81ff5d1f6ce10b65248d6174  deploy/index.html
+8f4a3804b6c16b0b5f62743308f7841d97a11eec  deploy/guides/1965-1973-mustang-vin.html
+ebe5c1adbf0e2b8bece948ac83b9952280702f9e  deploy/guides/1969-camaro-vin.html
+ef2cacc99076077b29f669ef01af1cadf9035f25  deploy/guides/1969-chevelle-vin.html
+03b3ed56158477f9b3f6ae143a0f030d507234cf  deploy/sitemap.xml
+5ee0f558124b25541a021efe094c126af5775b44  deploy/llms.txt
+5efc131174ac52bb4dfaa356c88b2531316d2657  deploy/build_inline_worker.py
+52d13806f63c1f707cf7a40742c6b9540ab5e118  deploy/_worker_inline.js

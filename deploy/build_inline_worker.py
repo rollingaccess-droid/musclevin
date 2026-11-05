@@ -26,7 +26,12 @@ FILES = [
     ("/robots.txt", "text/plain; charset=utf-8", ROOT / "robots.txt"),
     ("/sitemap.xml", "application/xml; charset=utf-8", ROOT / "sitemap.xml"),
     ("/llms.txt", "text/plain; charset=utf-8", ROOT / "llms.txt"),
+    ("/guides.html", "text/html; charset=utf-8", ROOT / "guides.html"),
     ("/guides/1969-chevelle-vin.html", "text/html; charset=utf-8", ROOT / "guides" / "1969-chevelle-vin.html"),
+    ("/guides/1969-camaro-vin.html", "text/html; charset=utf-8", ROOT / "guides" / "1969-camaro-vin.html"),
+    ("/guides/1965-1973-mustang-vin.html", "text/html; charset=utf-8", ROOT / "guides" / "1965-1973-mustang-vin.html"),
+    ("/guides/1965-1971-gto-vin.html", "text/html; charset=utf-8", ROOT / "guides" / "1965-1971-gto-vin.html"),
+    ("/guides/1969-mopar-b-body-vin.html", "text/html; charset=utf-8", ROOT / "guides" / "1969-mopar-b-body-vin.html"),
 ]
 
 
