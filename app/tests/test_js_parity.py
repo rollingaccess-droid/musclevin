@@ -185,7 +185,12 @@ def test_inline_worker_embeds_deploy_assets_and_waitlist():
         "/robots.txt": ROOT / "deploy" / "robots.txt",
         "/sitemap.xml": ROOT / "deploy" / "sitemap.xml",
         "/llms.txt": ROOT / "deploy" / "llms.txt",
+        "/guides.html": ROOT / "deploy" / "guides.html",
         "/guides/1969-chevelle-vin.html": ROOT / "deploy" / "guides" / "1969-chevelle-vin.html",
+        "/guides/1969-camaro-vin.html": ROOT / "deploy" / "guides" / "1969-camaro-vin.html",
+        "/guides/1965-1973-mustang-vin.html": ROOT / "deploy" / "guides" / "1965-1973-mustang-vin.html",
+        "/guides/1965-1971-gto-vin.html": ROOT / "deploy" / "guides" / "1965-1971-gto-vin.html",
+        "/guides/1969-mopar-b-body-vin.html": ROOT / "deploy" / "guides" / "1969-mopar-b-body-vin.html",
     }
     assert set(assets) == set(expect)
     for url, path in expect.items():
