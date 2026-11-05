@@ -2,6 +2,10 @@
 
 What changed on musclevin.com and why. Newest first.
 
+## 2026-11-05 · Sync deploy/ to production
+
+deploy/ was synced to match production 16819105 (Nov 3 growth sprint 3). The attached changelog had no newer sprint notes, so the Oct 20 entry below is unchanged.
+
 ## 2026-10-20 · Weekly growth sprint 1: search and AI-assistant discoverability
 
 **Starting point.** Waitlist signups in KV: 0 (checked 10:05 AM ET). With no traffic there is nothing to A/B test yet, so this sprint went to getting found rather than conversion copy. The site had no robots.txt, no sitemap, no llms.txt, no canonical URL, and only one page.

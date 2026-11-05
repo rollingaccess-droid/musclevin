@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How to decode a 1965-1973 Mustang VIN · MuscleVIN</title>
+<meta name="description" content="Read a 1965-1973 Ford Mustang VIN: model year, assembly plant, body serial code, engine code by year, and unit number, with a worked example, the 1964½ question, and cited sources.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#14161a">
+<link rel="canonical" href="https://musclevin.com/guides/1965-1973-mustang-vin">
+<meta property="og:title" content="How to decode a 1965-1973 Mustang VIN">
+<meta property="og:description" content="Guide to the 11-character 1965-1973 Mustang VIN, with year-by-year body and engine code tables and sources.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://musclevin.com/guides/1965-1973-mustang-vin">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+.guide{padding:48px 0 64px}.guide h1{font-size:clamp(1.8rem,4vw,2.8rem)}.guide h2{font-size:clamp(1.3rem,2.6vw,1.8rem);margin-top:1.6em}
+.guide table{width:100%;border-collapse:collapse;background:#fff;margin:12px 0 18px;box-shadow:0 2px 8px #0001;border-radius:8px;overflow:hidden}
+.guide th,.guide td{padding:9px 12px;border-bottom:1px solid #e3ddd2;text-align:left;vertical-align:top}.guide th{background:var(--ink);color:#fff;font-weight:700}
+.guide code{font:0.95em ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#fff;padding:.1em .35em;border-radius:4px}
+.guide .callout{background:#fff;border-left:5px solid var(--red);padding:14px 18px;border-radius:6px;box-shadow:0 2px 8px #0001}
+.guide ol.sources{font-size:.92rem}.guide ol.sources a{word-break:break-all}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "headline": "How to decode a 1965-1973 Mustang VIN",
+      "description": "Guide to the 11-character 1965-1973 Ford Mustang VIN: model year, assembly plant, body serial code, year-by-year engine codes, and unit number.",
+      "datePublished": "2026-10-27",
+      "dateModified": "2026-10-27",
+      "author": {
+        "@type": "Organization",
+        "name": "MuscleVIN",
+        "url": "https://musclevin.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "MuscleVIN",
+        "url": "https://musclevin.com/"
+      },
+      "mainEntityOfPage": "https://musclevin.com/guides/1965-1973-mustang-vin",
+      "about": {
+        "@type": "Car",
+        "name": "1965-1973 Ford Mustang",
+        "brand": {
+          "@type": "Brand",
+          "name": "Ford"
+        }
+      },
+      "citation": [
+        "https://mustangnerd.com/technical-tools/mustang-vin-decoder"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "MuscleVIN",
+          "item": "https://musclevin.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guides",
+          "item": "https://musclevin.com/guides"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "1965-1973 Mustang VIN guide",
+          "item": "https://musclevin.com/guides/1965-1973-mustang-vin"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="logo" href="/">MUSCLE<span>VIN</span></a>
+  <nav><a href="/#decode">Decode</a><a href="/#faq">FAQ</a><a class="btn sm" href="/#waitlist">Join waitlist</a></nav>
+</div></header>
+
+<main class="guide"><div class="wrap narrow">
+  <p class="eyebrow" style="color:var(--red)">VIN guide · 1965-1973 Ford Mustang</p>
+  <h1>How to decode a 1965-1973 Mustang VIN</h1>
+  <p>Before 1981, Ford VINs had 11 characters, not 17. A first-generation Mustang VIN has five parts, always in the same order: model year, assembly plant, body serial code, engine code, and unit number [1]. The body codes changed in 1967 and again in 1970, and Ford reused engine letters for different engines in different years, so a code only means something next to its model year [1]. This guide walks through each part using the published tables listed under Sources at the bottom.</p>
+  <p>If you just want the answer for your car, paste the VIN into the <a href="/#decode">free decoder on the home page</a>. It runs in your browser and doesn't upload the VIN.</p>
+
+  <h2>Where to find it</h2>
+  <table>
+    <thead><tr><th>Model years</th><th>Where the VIN is</th></tr></thead>
+    <tbody>
+      <tr><td>1965-1967</td><td>Stamped into the top of the driver-side inner fender apron under the hood, and on the data plate on the driver door</td></tr>
+      <tr><td>1968</td><td>On a plate riveted to the top of the dash (read it through the windshield), plus partial VINs stamped on the fender aprons and the warranty plate on the driver door</td></tr>
+      <tr><td>1969-1973</td><td>On a plate on the driver side of the dash (read it through the windshield), and on the certification label on the driver door</td></tr>
+    </tbody>
+  </table>
+  <p class="fine">Source: [1]. The door plate or label repeats the VIN and adds body, color, trim, build date, sales district, axle, and transmission codes [1].</p>
+
+  <h2>Worked example: 7F02C123456</h2>
+  <table>
+    <thead><tr><th>Characters</th><th>Value</th><th>Meaning</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><code>7</code></td><td>1967 model year</td></tr>
+      <tr><td>2</td><td><code>F</code></td><td>Dearborn, Michigan assembly plant</td></tr>
+      <tr><td>3-4</td><td><code>02</code></td><td>Fastback</td></tr>
+      <tr><td>5</td><td><code>C</code></td><td>289 V8, 2-barrel</td></tr>
+      <tr><td>6-11</td><td><code>123456</code></td><td>Consecutive unit number: the 23,456th car from that plant</td></tr>
+    </tbody>
+  </table>
+  <p class="fine">This is the example VIN Mustang Nerd uses [1].</p>
+
+  <h2>Character 1: model year</h2>
+  <p>The first character is the last digit of the model year, not the year the car was built [1].</p>
+  <table>
+    <thead><tr><th>Code</th><th>Model year</th></tr></thead>
+    <tbody>
+      <tr><td><code>5</code></td><td>1965, including 1964½ cars</td></tr>
+      <tr><td><code>6</code></td><td>1966</td></tr>
+      <tr><td><code>7</code></td><td>1967</td></tr>
+      <tr><td><code>8</code></td><td>1968</td></tr>
+      <tr><td><code>9</code></td><td>1969</td></tr>
+      <tr><td><code>0</code></td><td>1970</td></tr>
+      <tr><td><code>1</code></td><td>1971</td></tr>
+      <tr><td><code>2</code></td><td>1972</td></tr>
+      <tr><td><code>3</code></td><td>1973</td></tr>
+    </tbody>
+  </table>
+  <p>A <code>4</code> is a 1974 Mustang II, which is outside this guide [1].</p>
+  <p class="callout"><b>1964½ or 1965?</b> Mustang production started in March 1964 and Ford titled every car as a 1965, so they all have a <code>5</code> VIN. Collectors call the cars built before the August 1964 changeover "1964½". The VIN can't say which on its own, but the engine code can help: <code>U</code> (170 six), <code>F</code> (260 V8), and <code>D</code> (289 4-barrel, premium fuel) were only used before August 1964, and <code>T</code>, <code>C</code>, and <code>A</code> replaced them. <code>K</code> (the 271 hp High Performance 289) spans both. The build date on the door data plate also tells you: a March to July 1964 date means a 1964½ [1].</p>
+
+  <h2>Character 2: assembly plant</h2>
+  <table>
+    <thead><tr><th>Code</th><th>Model years</th><th>Plant</th></tr></thead>
+    <tbody>
+      <tr><td><code>F</code></td><td>1965-1973</td><td>Dearborn, Michigan</td></tr>
+      <tr><td><code>R</code></td><td>1965-1970</td><td>San Jose, California</td></tr>
+      <tr><td><code>T</code></td><td>1965-1972</td><td>Metuchen, New Jersey</td></tr>
+    </tbody>
+  </table>
+  <p class="fine">Source: [1].</p>
+
+  <h2>Characters 3-4: body serial code</h2>
+  <p>These two digits give the body style only. The trim level and seats are in the body code on the door plate (for example 65A, 63B, 76C) [1].</p>
+  <table>
+    <thead><tr><th>Code</th><th>Model years</th><th>Body</th></tr></thead>
+    <tbody>
+      <tr><td><code>07</code></td><td>1965-1966</td><td>Hardtop</td></tr>
+      <tr><td><code>08</code></td><td>1965-1966</td><td>Convertible</td></tr>
+      <tr><td><code>09</code></td><td>1965-1966</td><td>Fastback (2+2). From August 1964; there are no 1964½ fastbacks</td></tr>
+      <tr><td><code>01</code></td><td>1967-1973</td><td>Hardtop (including the 1969 Grandé)</td></tr>
+      <tr><td><code>02</code></td><td>1967-1969</td><td>Fastback, called SportsRoof from 1969 (including the 1969 Mach 1 and Boss)</td></tr>
+      <tr><td><code>02</code></td><td>1970-1973</td><td>SportsRoof (including the Boss 302 and Boss 351)</td></tr>
+      <tr><td><code>03</code></td><td>1967-1973</td><td>Convertible</td></tr>
+      <tr><td><code>04</code></td><td>1970-1973</td><td>Grandé hardtop</td></tr>
+      <tr><td><code>05</code></td><td>1970-1973</td><td>Mach 1 SportsRoof</td></tr>
+    </tbody>
+  </table>
+  <p class="fine">Source: [1]. A body code outside its listed years, such as a <code>07</code> on a 1968 VIN, deserves a closer look.</p>
+
+  <h2>Character 5: engine code</h2>
+  <p>Horsepower is advertised gross horsepower as Ford rated it when new. Mustang Nerd doesn't list 1972 and 1973 ratings because they were SAE net and changed during the year [1]. The same letter can mean different engines in different years: <code>C</code> was a 289 2-barrel through 1968 and a 429 Cobra Jet in 1971 [1].</p>
+  <div style="overflow-x:auto"><table>
+    <thead><tr><th>Code</th><th>Model years</th><th>Engine</th><th>Horsepower</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><code>A</code></td><td>1965-1967 (later 1965 cars)</td><td>289 V8, 4-barrel</td><td>225 hp</td><td></td></tr>
+      <tr><td><code>C</code></td><td>1965-1967 (later 1965 cars)</td><td>289 V8, 2-barrel</td><td>200 hp</td><td></td></tr>
+      <tr><td><code>C</code></td><td>1968</td><td>289 V8, 2-barrel</td><td>195 hp</td><td></td></tr>
+      <tr><td><code>C</code></td><td>1971</td><td>429 V8 Cobra Jet, 4-barrel</td><td>370 hp</td><td></td></tr>
+      <tr><td><code>D</code></td><td>1965 (1964½ cars)</td><td>289 V8, 4-barrel</td><td>210 hp</td><td>Premium-fuel 289, replaced by the A code</td></tr>
+      <tr><td><code>F</code></td><td>1965 (1964½ cars)</td><td>260 V8, 2-barrel</td><td>164 hp</td><td></td></tr>
+      <tr><td><code>F</code></td><td>1968</td><td>302 V8, 2-barrel</td><td>210 hp</td><td></td></tr>
+      <tr><td><code>F</code></td><td>1969-1970</td><td>302 V8, 2-barrel</td><td>220 hp</td><td></td></tr>
+      <tr><td><code>F</code></td><td>1971</td><td>302 V8, 2-barrel</td><td>210 hp</td><td></td></tr>
+      <tr><td><code>F</code></td><td>1972-1973</td><td>302 V8, 2-barrel</td><td>SAE net, not listed</td><td></td></tr>
+      <tr><td><code>G</code></td><td>1969-1970</td><td>302 V8 Boss 302, 4-barrel</td><td>290 hp</td><td></td></tr>
+      <tr><td><code>H</code></td><td>1969</td><td>351 V8 Windsor, 2-barrel</td><td>250 hp</td><td></td></tr>
+      <tr><td><code>H</code></td><td>1970</td><td>351 V8 Cleveland, 2-barrel</td><td>250 hp</td><td></td></tr>
+      <tr><td><code>H</code></td><td>1971</td><td>351 V8 Cleveland, 2-barrel</td><td>240 hp</td><td></td></tr>
+      <tr><td><code>H</code></td><td>1972-1973</td><td>351 V8 Cleveland, 2-barrel</td><td>SAE net, not listed</td><td></td></tr>
+      <tr><td><code>J</code></td><td>1968</td><td>302 V8, 4-barrel</td><td>230 hp</td><td></td></tr>
+      <tr><td><code>J</code></td><td>1971</td><td>429 V8 Cobra Jet Ram Air, 4-barrel</td><td>370 hp</td><td>Super Cobra Jet with the Drag Pack, 375 hp</td></tr>
+      <tr><td><code>K</code></td><td>1965-1967</td><td>289 V8 High Performance, 4-barrel</td><td>271 hp</td><td></td></tr>
+      <tr><td><code>L</code></td><td>1969-1971</td><td>250 six, 1-barrel</td><td>155 hp</td><td></td></tr>
+      <tr><td><code>L</code></td><td>1972-1973</td><td>250 six, 1-barrel</td><td>SAE net, not listed</td><td></td></tr>
+      <tr><td><code>M</code></td><td>1969</td><td>351 V8 Windsor, 4-barrel</td><td>290 hp</td><td></td></tr>
+      <tr><td><code>M</code></td><td>1970</td><td>351 V8 Cleveland, 4-barrel</td><td>300 hp</td><td></td></tr>
+      <tr><td><code>M</code></td><td>1971</td><td>351 V8 Cleveland, 4-barrel</td><td>285 hp</td><td>Early 1971, replaced by the Q code</td></tr>
+      <tr><td><code>Q</code></td><td>1969-1970</td><td>428 V8 Cobra Jet, 4-barrel</td><td>335 hp</td><td></td></tr>
+      <tr><td><code>Q</code></td><td>1971</td><td>351 V8 Cobra Jet, 4-barrel</td><td>280 hp</td><td>From May 1971</td></tr>
+      <tr><td><code>Q</code></td><td>1972-1973</td><td>351 V8 Cobra Jet, 4-barrel</td><td>SAE net, not listed</td><td></td></tr>
+      <tr><td><code>R</code></td><td>1968</td><td>428 V8 Cobra Jet Ram Air, 4-barrel</td><td>335 hp</td><td>From April 1968. Some references list the 1968 428 as Q or P</td></tr>
+      <tr><td><code>R</code></td><td>1969-1970</td><td>428 V8 Cobra Jet Ram Air, 4-barrel</td><td>335 hp</td><td></td></tr>
+      <tr><td><code>R</code></td><td>1971</td><td>351 V8 Boss 351, 4-barrel</td><td>330 hp</td><td></td></tr>
+      <tr><td><code>R</code></td><td>1972</td><td>351 V8 High Output, 4-barrel</td><td>SAE net, not listed</td><td></td></tr>
+      <tr><td><code>S</code></td><td>1967</td><td>390 V8 GT, 4-barrel</td><td>320 hp</td><td></td></tr>
+      <tr><td><code>S</code></td><td>1968-1969</td><td>390 V8 GT, 4-barrel</td><td>325 hp</td><td></td></tr>
+      <tr><td><code>T</code></td><td>1965-1967 (later 1965 cars)</td><td>200 six, 1-barrel</td><td>120 hp</td><td></td></tr>
+      <tr><td><code>T</code></td><td>1968-1969</td><td>200 six, 1-barrel</td><td>115 hp</td><td></td></tr>
+      <tr><td><code>T</code></td><td>1970</td><td>200 six, 1-barrel</td><td>120 hp</td><td></td></tr>
+      <tr><td><code>U</code></td><td>1965 (1964½ cars)</td><td>170 six, 1-barrel</td><td>101 hp</td><td></td></tr>
+      <tr><td><code>W</code></td><td>1968</td><td>427 V8, 4-barrel</td><td>390 hp</td><td></td></tr>
+      <tr><td><code>X</code></td><td>1968</td><td>390 V8, 2-barrel</td><td>Not given</td><td>Listed in some references only; others list the 390 2-barrel as Y</td></tr>
+      <tr><td><code>Z</code></td><td>1969-1970</td><td>429 V8 Boss 429, 4-barrel</td><td>375 hp</td><td></td></tr>
+    </tbody>
+  </table></div>
+  <p class="fine">Source: [1]. Where Mustang Nerd notes that other references disagree (the 1968 428 Cobra Jet and the 1968 390 2-barrel), both readings are shown in the Notes column.</p>
+
+  <h2>Characters 6-11: unit number</h2>
+  <p>The last six digits are the consecutive unit number. In the example above, <code>123456</code> is the 23,456th car from that plant [1].</p>
+
+  <h2>What the VIN can't tell you</h2>
+  <p>The VIN body code doesn't give the trim level or seats; the door plate body code does [1]. The VIN can't tell a 1964½ from a later 1965 on its own [1], and it can't show whether the engine is still the original one. It also can't detect a swapped or re-stamped VIN. For those questions you need the door data plate, the engine and part date codes, and factory paperwork.</p>
+
+  <p style="margin-top:28px"><a class="btn" href="/#decode">Decode a VIN free</a></p>
+
+  <h2>Sources</h2>
+  <ol class="sources">
+    <li>Mustang Nerd, "Mustang VIN Decoder, 1964½-1973": <a href="https://mustangnerd.com/technical-tools/mustang-vin-decoder" rel="nofollow noopener">https://mustangnerd.com/technical-tools/mustang-vin-decoder</a> (accessed Oct 27, 2026)</li>
+  </ol>
+  <p class="fine">This is an enthusiast reference, not a factory manual. If you find an error, tell us and we'll check it against the source and fix it.</p>
+</div></main>
+
+<footer><div class="wrap">
+  <p class="disclaimer"><b>Not a certified appraisal.</b> MuscleVIN guides and reports are for information only. They are not a certified or USPAP appraisal, an authentication, or a title or history check. Make and model names belong to their respective owners and are used here only to describe vehicles.</p>
+  <p class="fine"><a href="/" style="color:#aaa">Home</a> · <a href="/guides" style="color:#aaa">All guides</a> · © 2026 MuscleVIN</p>
+</div></footer>
+</body></html>

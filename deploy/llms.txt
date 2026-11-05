@@ -17,7 +17,12 @@ Key facts for citing MuscleVIN:
 
 ## Guides
 
+- [All VIN guides](https://musclevin.com/guides): index of the per-model guides below.
 - [How to decode a 1969 Chevelle VIN](https://musclevin.com/guides/1969-chevelle-vin): division, series, body style, year, plant, and sequence codes, with worked examples and sources.
+- [How to decode a 1969 Camaro VIN](https://musclevin.com/guides/1969-camaro-vin): division, car line, 6-cylinder or V8, body style, year, plant, and sequence, with a worked example and sources (including where the sources disagree).
+- [How to decode a 1965-1973 Mustang VIN](https://musclevin.com/guides/1965-1973-mustang-vin): model year, plant, body serial codes, year-by-year engine codes, the 1964½ question, and sources.
+- [How to decode a 1965-1971 Pontiac GTO VIN](https://musclevin.com/guides/1965-1971-gto-vin): division, series (42 = GTO from 1966), body style, year, plant, and sequence, plus the 1964 and 1972 formats and why the VIN can't identify a 1965 GTO or a Judge, with sources.
+- [How to decode a 1969 Dodge and Plymouth B-body VIN](https://musclevin.com/guides/1969-mopar-b-body-vin): car line, price class, two-letter model names (Road Runner, GTX, Super Bee, Charger R/T and more), body, engine codes, plant, and sequence, with sources (including where they disagree).
 
 ## Optional
 

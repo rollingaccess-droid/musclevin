@@ -1,0 +1,11 @@
+1d116ca458b7e067993e12a674e7ed31aa621d07  deploy/guides.html
+715f7176c39e9ea59bdda0046844014cd4f07de8  deploy/index.html
+f28a0be8bf824f9c73454939b6f9863c12c6996f  deploy/guides/1965-1971-gto-vin.html
+8f4a3804b6c16b0b5f62743308f7841d97a11eec  deploy/guides/1965-1973-mustang-vin.html
+ebe5c1adbf0e2b8bece948ac83b9952280702f9e  deploy/guides/1969-camaro-vin.html
+ef2cacc99076077b29f669ef01af1cadf9035f25  deploy/guides/1969-chevelle-vin.html
+a5baefd94338b772a94dc8b15e618e7b7d990869  deploy/guides/1969-mopar-b-body-vin.html
+a064213b28b0045ca3b9568bf0f2fe77dc300935  deploy/sitemap.xml
+a614bef4fbbf6e296b667ae63d028a5fcbaaa5a2  deploy/llms.txt
+4e376aaf9ce21ad1c766bc91710e39f5b4b41498  deploy/build_inline_worker.py
+05f87e23e08fe16f583c70e0a8ceb73bb493d8f4  deploy/_worker_inline.js
